@@ -1,0 +1,46 @@
+{
+    "manifest_version": 3,
+    "name": "TownHelper",
+    "version": "0.103",
+    "description": "Помощник для кастомизации Pony Town",
+    "icons": {
+        "128": "images/128.png"
+    },
+    "content_scripts": [
+        
+        {
+            "matches": [ "https://pony.town/*" ],
+            "css" : ["style-theme.css"],
+            "run_at":"document_start"
+        },
+        {
+            "matches": [ "https://pony.town/*" ],
+            "js" : ["js/jquery-3.5.1.min.js"],
+            "run_at":"document_start"
+        },
+        {
+            "matches": ["https://pony.town/*"],
+            "js": ["js/new.js"],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [ "https://pony.town/*" ],
+            "js": [ "fontawesome.js" ],
+            "run_at":"document_end"
+        },
+        {
+            "matches": [ "https://pony.town/*" ],
+            "js": [ "app.js" ],
+            "run_at":"document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["*images/*"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}
