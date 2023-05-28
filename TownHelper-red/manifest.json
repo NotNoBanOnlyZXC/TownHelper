@@ -21,13 +21,9 @@
         {
             "matches": ["https://pony.town/*"],
             "js": ["js/new.js"],
-            "run_at": "document_start"
+            "run_at": "document_end"
         },
-        {
-            "matches": [ "https://pony.town/*" ],
-            "js": [ "fontawesome.js" ],
-            "run_at":"document_end"
-        },
+        
         {
             "matches": [ "https://pony.town/*" ],
             "js": [ "app.js" ],

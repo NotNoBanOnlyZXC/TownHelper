@@ -115,7 +115,7 @@ let friends = new Array();
 let favourites = new Array();
 let settingsData = new Settings();
 
-let versionPlugin = "0.102.1";
+let versionPlugin = "0.103";
 let linkToAuthor = "https://t.me/NoBanOnlyZXC";
 
 let needToUpdate = false;
