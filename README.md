@@ -1,7 +1,7 @@
 # TownHelper
 TownHelper меняет внешний вид UI для игры pony.town
 
-* [Сообщить об ошибке](t.me/NoBanOnlyZXC)
+* [Сообщить об ошибке](https://t.me/NoBanOnlyZXC)
 
 # Установка
 ### Для установки в Yandex Browser:
