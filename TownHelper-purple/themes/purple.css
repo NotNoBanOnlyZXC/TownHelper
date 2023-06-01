@@ -1,0 +1,36 @@
+:root {
+    --th-background: rgba(40, 0, 40, 0.65);
+    --th-background-active: rgba(80, 30, 80, 0.65);
+    --th-background-transp: rgba(40, 0, 40, 0.4);
+    --th-background-ltransp: rgba(40, 0, 40, 0.7);
+    --th-background-rltransp: rgba(80, 0, 80, 0.7);
+    --th-background-rtransp: rgba(80, 0, 80, 0.4);
+    --th-background-disabled: rgba(40, 40, 40, 0.65);
+    --th-background-hover: rgba(80, 20, 80, 0.65);
+    --th-border-color: rgba(102, 20, 102, 0.45);
+    --th-border-color-active: rgba(180, 60, 180, 0.45);
+    --th-border-color-disabled: rgba(60, 60, 60, 0.45);
+    --th-border-color-hover: rgba(200, 60,200, 0.45);
+    --th-borders: rgba(225, 105, 225, 0.7);
+    --th-color: rgb(225, 105, 225);
+    --th-color-active: rgb(245, 125, 245);
+    --th-color-hover: rgb(225, 155, 225);
+    --th-color-disabled: rgb(155, 155, 155);
+    --th-red: rgb(200, 35, 200);
+    --th-button-color: rgba(100, 30, 100, 0.8);
+    --th-button-active-background: rgb(75, 15, 75);
+    --th-button-background-hover: rgba(150, 50, 150, 0.8);
+    --th-support-color: rgb(170, 170, 0);
+    --th-support-border: rgb(180, 180, 0);
+    --th-support-background: rgb(35, 35, 0);
+    --th-support-shadow: rgba(102, 102, 20, 0.85);
+    --th-chat-border: rgba(102, 20, 102, 0.4);
+    --th-pony-rect-background: rgba(60, 20, 60, 0.7);
+    --th-portrait-box-shadow: rgba(102, 20, 102, 0.85);
+    --th-buildbox-background: rgba(20, 0, 20, 0.55);
+    --th-buildbox-categories-background: rgba(20, 0, 20, 0.15);
+    --th-modal-background: rgba(60, 0, 20, 0.2);
+    --th-modal-shadow: rgba(102, 20, 102, 0.85);
+    --th-body-bg1: rgb(32, 6, 32);
+    --th-body-bg2: rgb(15, 3, 15);
+}
