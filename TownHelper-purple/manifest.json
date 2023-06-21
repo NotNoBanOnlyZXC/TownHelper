@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "TownHelper",
-    "version": "0.104.1",
+    "version": "0.104.2",
     "description": "Помощник для кастомизации Pony Town",
     "icons": {
         "128": "images/128.png"

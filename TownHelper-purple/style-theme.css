@@ -439,6 +439,14 @@ button {
     font-family: monospace !important;
 }
 
+#pony-box > div > div > div.pony-box-buttons-box > div:nth-child(2) > div {
+    background-color: red !important;
+    display: contents !important;
+}
+
+.btn-group.btn-group-shadow.dropdown {
+    height: 100% !important;
+}
 /* My Javascripts zone */
 
 .TH-support-btn {
